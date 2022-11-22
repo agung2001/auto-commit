@@ -2,7 +2,7 @@
 
 🌳 Making green your Github stats, powered by [Github Actions](https://github.com/features/actions)
 
-[![Auto commit](https://github.com/mazipan/auto-commit/workflows/Auto%20commit/badge.svg)](https://github.com/mazipan/auto-commit/actions?query=workflow%3A%22Auto+commit%22)
+[![Auto commit](https://github.com/agung2001/auto-commit/workflows/Auto%20commit/badge.svg)](https://github.com/agung2001/auto-commit/actions?query=workflow%3A%22Auto+commit%22)
 
 ![](screenshoot.png)
 
@@ -20,7 +20,7 @@ Or just do in the manual way:
 
 ## Article (in Bahasa Indonesia)
 
-- https://mazipan.space/membuat-commit-otomatis-ke-github/
+- [Membuat commit otomatis ke Github](https://mazipan.space/membuat-commit-otomatis-ke-github)
 
 ## Repo using this auto-commit
 
@@ -41,5 +41,5 @@ Or just do in the manual way:
 
 ---
 
-© 2020 Crafted by Irfan Maulana
+© 2020 Crafted by [Irfan Maulana](https://github.com/mazipan)
 
