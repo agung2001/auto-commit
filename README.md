@@ -1,4 +1,4 @@
-# auto-commit
+# Github auto-commit
 
 🌳 Making green your Github stats, powered by [Github Actions](https://github.com/features/actions)
 
@@ -24,7 +24,7 @@ Or just do in the manual way:
 
 ## Repo using this auto-commit
 
-- You can add your repo here
+- [agung2001/auto-commit](https://github.com/agung2001/auto-commit)
 
 
 ## Credits
