@@ -47,7 +47,7 @@ jobs:
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.5.0
         with:
-          force_with_lease: true
+          force: true
           directory: "."
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: feature/agung2001
