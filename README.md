@@ -1,6 +1,10 @@
 # Github auto-commit
 
-🌳 Making green your Github stats, powered by [Github Actions](https://github.com/features/actions)
+🌳 Making green your Github stats, powered by [GitHub Actions](https://github.com/features/actions).
+
+Note:
+This is just a sample of GitHub auto-commit using [GitHub Actions](https://github.com/features/actions),
+currently GitHub stats is not counting any commits coming from this repository.
 
 [![Auto commit](https://github.com/agung2001/auto-commit/workflows/Auto%20commit/badge.svg)](https://github.com/agung2001/auto-commit/actions?query=workflow%3A%22Auto+commit%22)
 
@@ -29,15 +33,9 @@ Or just do in the manual way:
 
 ## Credits
 
-- [Github Actions](https://github.com/features/actions)
-- [ad-m/github-push-action](https://github.com/ad-m/github-push-action)
-
-## Consider to Support
-
-- 👉 🇮🇩 [Trakteer](https://trakteer.id/mazipan?utm_source=github)
-- 👉 🌍 [BuyMeACoffe](https://www.buymeacoffee.com/mazipan?utm_source=github)
-- 👉 🌍 [Paypal](https://www.paypal.me/mazipan?utm_source=github)
-- 👉 🌍 [Ko-Fi](https://ko-fi.com/mazipan)
+- [GitHub Actions](https://github.com/features/actions)
+- [GitHub - ad-m/github-push-action](https://github.com/ad-m/github-push-action)
+- [GitHub - mazipan/auto-commit](https://github.com/mazipan/auto-commit)
 
 ---
 
