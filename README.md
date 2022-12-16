@@ -2,13 +2,13 @@
 
 🌳 Making green your Github stats, powered by [GitHub Actions](https://github.com/features/actions).
 
-Note:
+**Note:**
 This is just a sample of GitHub auto-commit using [GitHub Actions](https://github.com/features/actions),
 currently GitHub stats is not counting any commits coming from this repository.
 
 [![Auto commit](https://github.com/agung2001/auto-commit/workflows/Auto%20commit/badge.svg)](https://github.com/agung2001/auto-commit/actions?query=workflow%3A%22Auto+commit%22)
 
-![](screenshoot.png)
+![](screenshot.png)
 
 ## Make it your own
 

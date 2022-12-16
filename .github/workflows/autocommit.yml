@@ -1,28 +1,30 @@
 name: Auto commit
 
 on:
-
   push:
     branches:
       - feature/agung2001
       
   schedule:
-  - cron: "0 0,8,16 * * *"
+  - cron: "0 0 * * *"
 
 jobs:
   auto_commit:
     runs-on: ubuntu-latest
     steps:
+      # Checkout to current branch
       - uses: actions/checkout@v3
         with:
          persist-credentials: false
          fetch-depth: 0
 
+      # Modify last update
       - name: Modify last update
         run: |
           d=`date '+%Y-%m-%dT%H:%M:%SZ'`
           echo $d > LAST_UPDATED
-          
+
+      # Commit the changes
       - name: Commit changes
         run: |
           git config --local user.email "muhagung2001@gmail.com"
@@ -43,7 +45,8 @@ jobs:
           rand=$[$RANDOM % ${#arr[@]}]
           
           git commit -m "${arr[$rand]}"
-          
+
+      # Push the update again
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.6.0
         with:
