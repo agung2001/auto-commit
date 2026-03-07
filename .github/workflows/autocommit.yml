@@ -5,8 +5,8 @@ on:
     branches:
       - feature/agung2001
       
-  schedule:
-  - cron: "0 0 * * *"
+  #  schedule:
+#  - cron: "0 0 * * *"
 
 jobs:
   auto_commit:
